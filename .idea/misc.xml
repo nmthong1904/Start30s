@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/background_da_binh_chon.xml" value="0.1515" />
+        <entry key="app/src/main/res/drawable/background_close.xml" value="0.1515" />
+        <entry key="app/src/main/res/drawable/background_dialog.xml" value="0.1515" />
+        <entry key="app/src/main/res/drawable/background_main.xml" value="0.1515" />
+        <entry key="app/src/main/res/drawable/background_text.xml" value="0.1515" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.13541666666666666" />
+        <entry key="app/src/main/res/layout/bottom_sheet_dialog_one_clip.xml" value="0.24583333333333332" />
+        <entry key="app/src/main/res/layout/fragment_child.xml" value="0.13541666666666666" />
+        <entry key="app/src/main/res/layout/fragment_information.xml" value="0.13541666666666666" />
+        <entry key="app/src/main/res/layout/fragment_live.xml" value="0.13541666666666666" />
+        <entry key="app/src/main/res/layout/fragment_one_clip.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_rank_dialog.xml" value="0.24583333333333332" />
+        <entry key="app/src/main/res/layout/fragment_talk_live.xml" value="0.24583333333333332" />
+        <entry key="app/src/main/res/layout/fragment_team.xml" value="0.22736206054687502" />
+        <entry key="app/src/main/res/layout/fragment_team_clip.xml" value="0.13541666666666666" />
+        <entry key="app/src/main/res/layout/fragment_team_detail.xml" value="0.13541666666666666" />
+        <entry key="app/src/main/res/layout/item_user_chat.xml" value="0.24583333333333332" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/list_item_clip.xml" value="0.5404978434244792" />
+        <entry key="app/src/main/res/layout/list_item_detail.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/list_item_rank.xml" value="0.13541666666666666" />
+        <entry key="app/src/main/res/layout/main_content.xml" value="0.13541666666666666" />
+        <entry key="app/src/main/res/xml/automotive_app_desc.xml" value="0.24947916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

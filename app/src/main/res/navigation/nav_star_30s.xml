@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_star_30s"
+    app:startDestination="@id/teamFragment">
+
+    <fragment
+        android:id="@+id/teamFragment"
+        android:name="com.example.start30s.fragment.TeamFragment"
+        android:label="TeamFragment" >
+        <action
+            android:id="@+id/action_teamFragment_to_teamDetailFragment"
+            app:destination="@id/teamDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/teamDetailFragment"
+        android:name="com.example.start30s.fragment.TeamDetailFragment"
+        android:label="TeamDetailFragment" >
+        <action
+            android:id="@+id/action_teamDetailFragment_to_teamFragment"
+            app:destination="@id/teamFragment" />
+        <action
+            android:id="@+id/action_teamDetailFragment_to_teamClipFragment"
+            app:destination="@id/teamClipFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/teamClipFragment"
+        android:name="com.example.start30s.fragment.TeamClipFragment"
+        android:label="fragment_team_clip"
+        tools:layout="@layout/fragment_team_clip" >
+        <action
+            android:id="@+id/action_teamClipFragment_to_teamDetailFragment"
+            app:destination="@id/teamDetailFragment" />
+        <action
+            android:id="@+id/action_teamClipFragment_to_oneClipFragment"
+            app:destination="@id/oneClipFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/oneClipFragment"
+        android:name="com.example.start30s.fragment_tiktok.OneClipFragment"
+        android:label="fragment_one_clip"
+        tools:layout="@layout/fragment_one_clip" >
+        <action
+            android:id="@+id/action_oneClipFragment_to_teamClipFragment"
+            app:destination="@id/teamClipFragment" />
+        <action
+            android:id="@+id/action_oneClipFragment_to_liveFragment"
+            app:destination="@id/liveFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/liveFragment"
+        android:name="com.example.start30s.fragment.LiveFragment"
+        android:label="fragment_live"
+        tools:layout="@layout/fragment_live" />
+</navigation>

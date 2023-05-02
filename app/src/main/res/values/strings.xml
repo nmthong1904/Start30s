@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Start30s</string>
+    <string name="noidungchitiet">Đây là một cuộc thi sản xuất video có thời lượng 30s trong một thời gian ngắn giữa các bạn trẻ có năng lực sáng tạo, để tạo ra các nội dung video giải trí ngắn.</string>
+    <string name="exo_url">http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thamgiabauchon">Hot Tik Toker Ngô Ngọc Hoà sinh năm 2002, đến từ Cà Mau. Đối với cộng đồng yêu thích Tik Tok, Ngọc Hoà không còn là cái tên xa lạ khi sở hữu đến hơn 11 triệu follower và 154 triệu lượt thích cho các Clip trên kênh Tik Tok cá nhân</string>
+
+</resources>

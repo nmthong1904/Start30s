@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_live"
+    app:startDestination="@id/talkLiveFragment">
+
+    <fragment
+        android:id="@+id/talkLiveFragment"
+        android:name="com.example.start30s.fragment_viewpager_live.TalkLiveFragment"
+        android:label="TalkLiveFragment" >
+        <action
+            android:id="@+id/action_talkLiveFragment_to_informationFragment"
+            app:destination="@id/informationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/informationFragment"
+        android:name="com.example.start30s.fragment_viewpager_live.InformationFragment"
+        android:label="fragment_information"
+        tools:layout="@layout/fragment_information" >
+        <action
+            android:id="@+id/action_informationFragment_to_talkLiveFragment"
+            app:destination="@id/talkLiveFragment" />
+    </fragment>
+</navigation>
